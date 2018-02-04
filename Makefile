@@ -7,7 +7,7 @@ DEPS = goldrush
 dep_goldrush = git https://github.com/basho/goldrush 0.1.9
 
 DEPS += emqttd emq_dashboard\
-        emq_auth_pgsql emq_plugin_elasticsearch
+        emq_auth_pgsql emq_plugin_elasticsearch hsl_plugin_retain
 
 # emq deps
 dep_emqttd        = git https://github.com/emqtt/emqttd master
@@ -42,6 +42,8 @@ dep_emq_lua_hook  = git https://github.com/emqtt/emq-lua-hook master
 #dep_emq_elixir_plugin = git  https://github.com/emqtt/emq-elixir-plugin master
 
 dep_emq_plugin_elasticsearch = git https://github.com/phanimahesh/emq_plugin_elasticsearch
+
+dep_hsl_plugin_retain = git https://github.com/apinf/hsl_plugin_retain
 
 # COVER = true
 
