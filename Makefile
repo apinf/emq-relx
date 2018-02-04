@@ -7,7 +7,8 @@ DEPS = goldrush
 dep_goldrush = git https://github.com/basho/goldrush 0.1.9
 
 DEPS += emqttd emq_dashboard\
-        emq_auth_pgsql emq_plugin_elasticsearch hsl_plugin_retain
+        emq_auth_pgsql emq_plugin_elasticsearch\
+        emq_retainer hsl_plugin_retain
 
 # emq deps
 dep_emqttd        = git https://github.com/emqtt/emqttd master
